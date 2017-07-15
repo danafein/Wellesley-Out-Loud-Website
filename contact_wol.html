@@ -1,0 +1,86 @@
+<!doctype html>
+<!--
+FILE NAME: contact_us.html
+WRITTEN BY: Dana Fein-Schaffer
+DATE: Nov 3, 2015
+PURPOSE: Contact Us page for WOL website
+-->
+
+<html>
+<head>
+    <title>WOL Contact Us</title>
+    <meta charset='utf-8'>
+    <link href="wol.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <nav>
+        <!--#include virtual="wol_ssi.part" -->
+    </nav>
+<div id="contact_page">
+    <h1 id="contact_us">Contact Us</h1>
+
+    <div id="social_media">
+        <br><br><br><br>
+        <h2>Social Media</h2>
+        <p>
+            <a href="https://www.facebook.com/WOutLoud/?fref=ts">Facebook</a><br>Tumblr (Coming Soon)
+        </p>
+    </div>
+    <br>
+    <br>
+    <div id="direct_contact">
+    <h2>Contact Wellesley Out Loud Directly</h2>
+
+        <div id="emails">
+            <h3>Our E-mails</h3>
+            <p>Sam Chin: schin@wellesley.edu<br>Nina-Marie Amadeo: namadeo@wellesley.edu</p>
+        </div>
+
+    <br>
+    <br>
+
+        <div id="form">
+            <h3>Send us an e-mail now:</h3>
+            <form>
+                <label>Name:</label><br>
+                <input type='text' name='name' id='name'><br><br>
+
+                <label>Email:</label><br>
+                <input type='text' name='email' id='email'><br><br>
+
+                <label>Your Message:</label><br>
+                <textarea name='message' id='message' rows=8, cols=40></textarea><br><br>
+
+                <button type='button' id='sendbutton'>Send</button>
+
+        <div id=results></div>
+    </form>
+    </div>
+</div>
+</div>
+<p id="validator_html">
+  <a href="http://validator.w3.org/check?uri=referer">
+     <img
+       src="http://cs.wellesley.edu/~cs110/Icons/valid-html5v2.png"
+       alt="Valid HTML 5"
+       title="Valid HTML 5"
+       height="31" width="88">
+  </a>
+</p>
+
+<p id="validator_css">
+  <a href="http://jigsaw.w3.org/css-validator/check/referer">
+     <img
+       src="http://cs.wellesley.edu/~cs110/Icons/vcss.gif"
+       alt="Valid CSS"
+       title="Valid CSS"
+       height="31" width="88">
+  </a>
+</p>
+
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js' type='text/javascript'></script>
+    <script src='wol.js' type='text/javascript'></script>
+</body>
+</html>

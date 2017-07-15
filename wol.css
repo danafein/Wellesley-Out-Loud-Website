@@ -1,0 +1,352 @@
+/*Author: Joanna LaPerriere and Dana Fein-Schaffer
+Date: 11-15-15
+Purpose: Wellesley Out Loud CSS
+Filename: wol.css
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+
+body{
+    background-color:#4B4640;
+    font-family: "Garamond", Garamond, serif;
+    margin:0px;
+    padding: 0px;
+
+}
+
+
+#mission p{
+    background-color: #FAEBD7;
+    /* text indent allows for beginning of paragraph to be indented */
+    text-indent:2em;
+}
+
+
+
+img{
+    /* this radius makes our size images completely circular */
+    border-radius: 150px;
+}
+
+figcaption{
+    color: #FAEBD7;
+    text-align: center;
+}
+
+figure{
+    /*floating the figure rather than individual images allows them to vertically stack*/
+    width: 300px;
+    text-align: center;
+    float:left;
+    margin-top:30px;
+
+}
+
+/*styled this paragraph individually to allow for variation between pages*/
+#mission{
+    width: 550px;
+    margin-left: 50px;
+    border-radius: 10px;
+    padding-left:30px;
+    padding-right:30px;
+    padding-top: 20px;
+    padding-bottom:30px;
+    background-color: #FAEBD7;
+    margin-top:40px;
+    float:left;
+    font-size: 22px;
+
+}
+/*puts the h1 inside of the box containing this paragraph */
+#mission h1{
+    text-align:center;
+    color: #4B4640;
+}
+
+#sem_events{
+    float:left;
+    background-color:black;
+    width: 800px;
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 30px;
+    padding-bottom:75px;
+
+}
+
+#sem_events img{
+    border-radius:0px;
+    float:left;
+    margin-left:70px;
+}
+
+
+
+#eventtitle{
+    text-align:center;
+    padding-bottom:20px;
+}
+
+#event_message{
+    color: #FAEBD7;
+    clear:both;
+    text-align:center;
+    font-size:24px;
+    padding-top: 20px;
+}
+/*separate div allows circles to stack*/
+#event_circles{
+    float:left;
+    margin-top: 50px;
+}
+
+#qs{
+    width:200px;
+    height:200px;
+    border-radius:120px;
+    padding:20px;
+    background-color: #FAEBD7;
+    margin:20px;
+    text-align:center;
+}
+/* this element should only appear if there is an event the day the site is visited*/
+#today{
+    width:200px;
+    height:200px;
+    border-radius: 120px;
+    padding:20px;
+    background-color:white;
+    margin:20px;
+    text-align:center;
+    position:absolute;
+}
+
+
+
+#pictures{
+    width:400px;
+    float: right;
+}
+
+#navigation{
+    background-color:#FAEBD7;
+    text-align: center;
+    height: 100px;
+    margin-left:0px;
+    margin-top:0px;
+    margin-right:0px;
+    padding-top: 0px;
+}
+
+
+#logo{
+background-color: #FAEBD7;
+text-align:center;
+padding-top:20px;
+}
+
+#nav_bar{
+margin-top:0px;
+
+}
+
+
+.navitem{
+    display: inline-block;
+    margin-top: 50px;
+    padding-right: 50px;
+    padding-left:50px;
+    text-align: center;
+    font-size: 25px;
+
+}
+a:link{
+    text-decoration: none;
+    color:black;
+
+}
+
+a:visited{
+    color: #4B4640;
+}
+a:hover{
+    color: #4B4640;
+}
+a:active{
+    color: #4B4640;
+}
+
+h1{
+    color: white;
+    font-family: "Lobster", Lobster, serif;
+}
+
+/*CSS to style the Contact Us page*/
+label{
+    color: #4B4640;
+}
+
+#contact_page{
+    margin:auto;
+    text-align:center;
+    width: 800px;
+}
+
+#direct_contact{
+    width: 400px;
+    float:left;
+    margin-left: 50px;
+}
+
+#contact_us{
+    text-align: center;
+    float:left;
+    padding-top: 20px;
+    font-size: 40px;
+    width: 300px;
+}
+
+#direct_contact h2{
+    color: #FAEBD7;
+    text-align: center;
+    font-family: "Lobster", Lobster, serif;
+}
+
+#social_media{
+    background-color: #FAEBD7;
+    border-radius:150px;
+    width: 300px;
+    height:300px;
+    position:absolute;
+    margin-top: 140px;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+#social_media h2{
+    color: #4B4640;
+    font-family: "Lobster", Lobster, serif;
+}
+#emails{
+    background-color: #FAEBD7;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+#emails h3{
+    color: #4B4640;
+}
+
+#form{
+    background-color: #FAEBD7;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#form h3{
+    text-align: center;
+    color: #4B4640;
+}
+
+form{
+    text-align: center;
+}
+
+/*CSS to style Inspiration page*/
+#poet_of_day{
+    width: 300px;
+    margin-left:50px;
+    margin-top:0px;
+    float:left;
+}
+
+#inspiration{
+    margin: auto;
+    text-align: center;
+    width: 650px;
+    height:800px;
+}
+
+#inspo_title{
+    width: 300px;
+    text-align: center;
+    float:left;
+    margin-top: 20px;
+    margin-bottom:20px;
+    font-size: 40px;
+
+}
+
+#poet_of_day h2{
+    color: #FAEBD7;
+}
+
+#inspiration h2{
+    font-family: "Lobster", Lobster, serif;
+}
+
+#inspiration ul{
+    list-style-type: none;
+    text-align: left;
+}
+
+
+
+#poet_list{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #FAEBD7;
+    margin-top: 87px;
+    padding-bottom: 20px;
+    width: 300px;
+    position:absolute;
+
+}
+
+#poet_list ul{
+    margin: auto;
+}
+
+#poet_list h2{
+    text-align: center;
+    color: black;
+}
+
+#poet{
+    background-color: #FAEBD7;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    color: #4B4640;
+}
+
+#poet img{
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+}
+
+#poet_of_day h2{
+    text-align: center;
+    margin-top:none;
+}
+
+#validator_html{
+    border-radius:0px;
+    clear:both;
+
+}
+#validator_css{
+    border-radius:0px;
+    clear:both;
+}
+
+
+/*
+Fix margin in browser
+Finalize appearance
+Set fonts for headers and font size
+ */
